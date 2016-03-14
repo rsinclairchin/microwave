@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   root 'application#index'
 
   get '/video' => 'application#video'
+  post '/' => 'application#new'
 
   get '/end' => 'application#fin'
 

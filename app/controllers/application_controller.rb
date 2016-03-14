@@ -6,6 +6,11 @@ class ApplicationController < ActionController::Base
   def index
   end
 
+  def new
+    p params
+    redirect_to '/video'
+  end
+
   def video
   end
 
