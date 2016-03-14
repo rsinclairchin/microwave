@@ -12,6 +12,9 @@ class ApplicationController < ActionController::Base
   end
 
   def video
+    # QUERY YOUTUBE API HERE
+
+    @video_id = "OISvE_fCtWY"
   end
 
   def fin
